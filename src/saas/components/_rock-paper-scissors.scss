@@ -1,1 +1,128 @@
 // section Eduard // 
+body {
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin: 20px;
+}
+
+.choice {
+    border: 0;
+    background-color: white;
+}
+
+.nachalo {
+    margin: auto;
+    width: 195px;
+    height: 20px;
+    top: 543px;
+
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+}
+
+.text {
+    text-align: left;
+    display: block;
+    width: 80px;
+    height: 60px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20.4px;
+    letter-spacing: 0;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.images-stone {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 120px;
+
+}
+
+.images-sciossors {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.images-paper {
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: black;
+}
+
+.variant {
+    width: 222px;
+    height: 35px;
+    top: 746px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 9px;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 0%;
+
+}
+
+
+
+.green-text {
+    width: 180px;
+    height: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: 'Montserrat Alternates';
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    color: green;
+}
+
+.red-text {
+    width: 239px;
+    height: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: 'Montserrat Alternates';
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: red;
+}
+
+.gray-text {
+    width: 120px;
+    height: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 12px !important;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400 !important;
+    color: gray;
+}
