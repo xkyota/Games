@@ -1,1 +1,25 @@
 // section Svedova // 
+.container{
+    width: 1090px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+.guess-the-number-paragraph{
+    font-family: $Montserrat-fonts;
+    margin-top: 36px;
+}
+.line{
+    width: 536px;
+    height: 2px;
+    border: 1px;
+    background-color: $black-color;
+    margin: 0 auto;
+}
+.enter-number{
+    display: flex;
+    margin-left: 257px;
+    margin-top: 36px;
+    &__input{
+        border-radius: 20px;
+    }
+}
