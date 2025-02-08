@@ -1,1 +1,80 @@
 // section Pogorelova // 
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    height: 202px;
+    outline: 1px solid red;
+}
+
+footer {
+
+    display: flex;
+    gap: 185px;
+    align-content: center;
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+
+    .footer-img {
+        width: 164px;
+        height: 75px;
+        margin-top: 75px;
+        margin-left: 175px;
+    }
+}
+
+.footer-inf {
+    text-align: left;
+    height: 100px;
+    width: 207px;
+    margin-top: 61px;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.footer-reg {
+
+    height: 60px;
+    padding-top: 97px;
+
+    input {
+        width: 204px;
+        height: 35px;
+        background-color: $input-background-color;
+        border-radius: 20px;
+        border: none;
+        font-size: 12px;
+        line-height: 14px;
+        font-family: $Montserrat-fonts;
+        font-weight: 400;
+
+    }
+
+    input::placeholder {
+        padding-left: 10px;
+        color: $input-text-color;
+
+    }
+
+    button {
+        width: 107px;
+        height: 35px;
+        margin-left: 36px;
+        border: none;
+        border-radius: 20px;
+        background-color: $black-color;
+        color: $white-color;
+        font-size: 12px;
+        line-height: 14px;
+        font-family: $Montserrat-fonts;
+        font-weight: 400;
+    }
+
+    .footer-reg-text {
+        font-size: 6px;
+        line-height: 7px;
+        padding-top: 18px;
+        text-align: left;
+    }
+}
