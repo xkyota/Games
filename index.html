@@ -12,10 +12,13 @@
   <body>
 
     <!-- ENOENT: no such file or directory, open '/home/runner/work/Games/Games/src/partials/vite-promo.html' -->
-    <!-- section Maxim -->
-    <!-- section Julia -->
-    <!-- section Svedova -->
-    <!-- section Eduard -->
+     <header>
+       <!-- section Maxim -->
+     </header>
+     <main>
+       <!-- section Julia -->
+       <!-- section Svedova -->
+       <!-- section Eduard -->
 <h1 class="nachalo">Камінь - Ножиці - Папір</h1>
 <div class="choices">
     <button class="choice" onclick="playGame('камінь')"><img class="images-stone"
@@ -34,53 +37,33 @@
 
 <p class="resultat" id="result"></p>
 <p class="variant" id="computer-choice">Варіант комп’ютера</p>
-
-<script>
-    let userScore = 0;
-let computerScore = 0;
-
-function playGame(userChoice) {
-    const choices = ['камінь', 'ножиці', 'папір'];
-    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-
-    document.getElementById('computer-choice').textContent = "Варіант комп’ютера: " + computerChoice;
-
-    let resultElement = document.getElementById('result');
-    let result = '';
-
-    if (userChoice === computerChoice) {
-        result = 'Нічия!';
-        resultElement.className = "gray-text";
-    } else if (
-        (userChoice === 'камінь' && computerChoice === 'ножиці') ||
-        (userChoice === 'ножиці' && computerChoice === 'папір') ||
-        (userChoice === 'папір' && computerChoice === 'камінь')
-    ) {
-        result = 'Ви виграли раунд!';
-        resultElement.className = "green-text";
-        userScore++;
-    } else {
-        result = 'Комп’ютер виграв раунд!';
-        resultElement.className = "red-text";
-        computerScore++;
-    }
-
-    resultElement.textContent = result;
-    document.getElementById('user-score').textContent = userScore;
-    document.getElementById('computer-score').textContent = computerScore;
-}
-</script>
-    <!-- section Yaroslav -->
-    <!-- section Roman -->
-    <!-- section Tymur -->
-    <!--  -->
-    <!-- section Illia -->
-    <!-- section Mariam -->
-    <!-- section Stasiv -->
-    <!-- section Malyk -->
-    <!-- section Anton -->
-    <!-- section Pogorelova -->
-
+       <!-- section Yaroslav -->
+       <!-- section Roman -->
+       <!-- section Tymur -->
+       <!--  -->
+       <!-- section Illia -->
+       <!-- section Stasiv -->
+       <!-- section Malyk -->
+       <!-- section Anton -->
+     </main>
+     <footer>
+      <!-- section Mariam -->
+      <!-- section Pogorelova -->
+     </footer>
+     <script src="./js/calculator.js"></script>
+     <script src="./js/choose-a-scientists.js"></script>
+     <script src="./js/football.js"></script>
+     <script src="./js/footer.js"></script>
+     <script src="./js/google-dinosaur.js"></script>
+     <script src="./js/guess-the-number.js"></script>
+     <script src="./js/header.js"></script>
+     <script src="./js/is-year-leap.js"></script>
+     <script src="./js/modal-hello.js"></script>
+     <script src="./js/modal-subscribe.js"></script>
+     <script src="./js/our-team.js"></script>
+     <script src="./js/rock-paper-scissors.js"></script>
+     <script src="./js/the-largest-of-three-numbers.js"></script>
+     <script src="./js/time-converter.js"></script>
     
   </body>
 </html>
