@@ -160,6 +160,31 @@ body {
   color: gray;
 }
 
+.football {
+  margin-top: 36px;
+  align-items: center;
+  justify-content: center;
+}
+
+.football-text {
+  margin-top: 36px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.football-area {
+  margin-top: 36px;
+  width: 720px;
+  height: 220px;
+  background-color: #5ABB58;
+  border: black 2px solid;
+  border-radius: 37px;
+  display: block;
+  margin: 0 auto;
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
