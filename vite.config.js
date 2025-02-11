@@ -11,5 +11,7 @@ export default defineConfig({
     },
     outDir: '../dist',
   },
+  base: "Games",
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
+  
 });
