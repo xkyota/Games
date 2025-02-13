@@ -197,6 +197,15 @@ body {
   outline: 1px solid red;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 footer {
   display: flex;
   gap: 185px;
@@ -214,7 +223,7 @@ footer .footer-img {
 .footer-inf {
   text-align: left;
   height: 100px;
-  width: 207px;
+  width: 250px;
   margin-top: 61px;
   font-size: 12px;
   line-height: 20px;
