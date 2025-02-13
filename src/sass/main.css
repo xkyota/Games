@@ -61,6 +61,16 @@ body {
   cursor: pointer;
 }
 
+.heading {
+  width: 195;
+  height: 20;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+}
+
 .nachalo {
   margin: auto;
   width: 195px;
@@ -76,7 +86,7 @@ body {
 .text {
   text-align: left;
   display: block;
-  width: 80px;
+  width: 92px;
   height: 60px;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
@@ -97,7 +107,7 @@ body {
   height: 60px;
   border-radius: 20px;
   padding: 10px;
-  margin-left: 120px;
+  margin-left: 133px;
 }
 
 .images-sciossors {
