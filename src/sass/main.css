@@ -62,8 +62,7 @@ body {
 }
 
 .heading {
-  width: 195;
-  height: 20;
+  height: 20px;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 16px;
@@ -86,7 +85,7 @@ body {
 .text {
   text-align: left;
   display: block;
-  width: 92px;
+  width: 95px;
   height: 60px;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
@@ -173,6 +172,67 @@ body {
   font-family: "Montserrat Alternates", serif;
   font-weight: 400 !important;
   color: gray;
+}
+
+.time-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-calculator__title {
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  font-size: 16px;
+}
+.time-calculator__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time-calculator__input {
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  font-size: 12px;
+  color: #7e7e7e;
+  background-color: #d7d7d7;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 35px;
+  padding: 10px 15px;
+}
+.time-calculator__input::-webkit-outer-spin-button, .time-calculator__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.time-calculator__input:focus {
+  outline: none;
+}
+.time-calculator__button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.time-calculator__button:hover {
+  background: #333;
+}
+.time-calculator__separator {
+  width: 100px;
+  border-bottom: 1px dashed black;
+}
+.time-calculator__output {
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 .football {
