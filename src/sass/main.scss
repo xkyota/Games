@@ -15,3 +15,32 @@
 @import './components/our-team';
 @import './components/choose-a-scientist';
 @import './components/footer';
+
+body{ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(../img/background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-background {
+  width: 1090px;
+  height: 3202px;
+  flex-shrink: 0;
+  background: #FFF;
+}
+
+header{ 
+    position: absolute;
+    top: 0;
+}
+footer{ 
+    bottom: 0;
+    position: absolute;
+}
