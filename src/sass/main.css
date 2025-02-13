@@ -200,11 +200,10 @@ body {
   margin: 0 auto;
 }
 
-.container {
+.container-footer {
   width: 1440px;
   margin: 0 auto;
   height: 202px;
-  outline: 1px solid red;
 }
 
 li {
@@ -216,14 +215,14 @@ a {
   color: #000;
 }
 
-footer {
+.footer {
   display: flex;
   gap: 185px;
   align-content: center;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
 }
-footer .footer-img {
+.footer .footer-img {
   width: 164px;
   height: 75px;
   margin-top: 75px;
@@ -303,9 +302,13 @@ body {
 header {
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
 }
 
 footer {
   bottom: 0;
+  left: 0;
+  right: 0;
   position: absolute;
 }/*# sourceMappingURL=main.css.map */

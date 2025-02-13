@@ -1,9 +1,10 @@
 // section Pogorelova // 
-.container {
+.container-footer {
+    // For background
+    // width: 100%;
     width: 1440px;
     margin: 0 auto;
     height: 202px;
-    outline: 1px solid red;
 }
 li{
     list-style: none;
@@ -13,8 +14,10 @@ a{
 
 color: $black-color;
 }
-footer {
+.footer {
 
+    // For background
+    // padding-bottom: 61px; 
     display: flex;
     gap: 185px;
     align-content: center;
