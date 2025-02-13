@@ -57,12 +57,16 @@ body {
   background-color: white;
 }
 
+.choice:hover {
+  cursor: pointer;
+}
+
 .nachalo {
   margin: auto;
   width: 195px;
   height: 20px;
   top: 543px;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19.5px;
@@ -74,7 +78,7 @@ body {
   display: block;
   width: 80px;
   height: 60px;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 20.4px;
@@ -121,7 +125,7 @@ body {
   padding-top: 9px;
   background-color: black;
   color: white;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14.63px;
@@ -133,7 +137,7 @@ body {
   height: 15px;
   margin: auto;
   margin-bottom: 40px;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-size: 12px !important;
   font-weight: 400 !important;
   color: green;
@@ -144,7 +148,7 @@ body {
   height: 15px;
   margin: auto;
   margin-bottom: 40px;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-size: 12px !important;
   font-weight: 300 !important;
   color: red;
@@ -156,7 +160,7 @@ body {
   margin: auto;
   margin-bottom: 40px;
   font-size: 12px !important;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400 !important;
   color: gray;
 }
