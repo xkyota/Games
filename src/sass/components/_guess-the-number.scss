@@ -1,25 +1,78 @@
-// section Svedova // 
-.container{
-    width: 1090px;
-    margin: 0 auto;
-    outline: 1px solid red;
+// section Svedova //
+.container {
+  width: 1090px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
-.guess-the-number-paragraph{
+.guess-the-number-paragraph {
+  font-family: $Montserrat-fonts;
+  margin-top: 36px;
+}
+.line {
+  width: 536px;
+  height: 2px;
+  border: 1px;
+  background-color: $black-color;
+  margin: 0 auto;
+}
+.enter-number {
+  display: flex;
+  margin-left: 257px;
+  margin-top: 36px;
+  &__input {
+    background-color: $input-background-color;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    color: $input-text-color;
+    padding: 10px;
     font-family: $Montserrat-fonts;
-    margin-top: 36px;
-}
-.line{
-    width: 536px;
-    height: 2px;
-    border: 1px;
+    font-size: 12px;
+    box-shadow: 5px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  }
+  &__input:focus {
+    outline: none;
+  }
+  &__button {
+    position: absolute;
+    margin-left: 120px;
+    height: 35px;
+    width: 35px;
+    border-radius: 0px 20px 20px 0px;
     background-color: $black-color;
-    margin: 0 auto;
+    cursor: pointer;
+  }
+  &__img {
+    padding-top: 4px;
+  }
 }
-.enter-number{
-    display: flex;
-    margin-left: 257px;
-    margin-top: 36px;
-    &__input{
-        border-radius: 20px;
-    }
+.green-paragraph {
+  width: 224px;
+  height: 15px;
+  color: $green-color;
+  font-family: $Montserrat-fonts;
+  font-size: 12px;
+  margin-left: 202px;
+}
+.red-paragraph{
+  width: 275px;
+  height: 15px;
+  color: $red-color;
+  font-family: $Montserrat-fonts;
+  font-size: 12px;
+  margin-left: 202px;
+}
+.guess-the-number-div {
+  display: flex;
+  align-items: end;
+
+}
+.grey-paragraph{
+  width: 224px;
+  height: 15px;
+  color: $input-text-color;
+  font-family: $Montserrat-fonts;
+  font-size: 12px;
+  margin-left: 202px;
 }

@@ -61,7 +61,7 @@ header {
 .header-inf .header-inf-items {
   color: #000;
   text-align: right;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +170,63 @@ input:checked + .slider:before {
   margin-top: 36px;
 }
 .enter-number__input {
+  background-color: #D7D7D7;
+  width: 150px;
+  height: 35px;
+  border: none;
   border-radius: 20px;
+  color: #7E7E7E;
+  padding: 10px;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  box-shadow: 5px 3px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.enter-number__input:focus {
+  outline: none;
+}
+.enter-number__button {
+  position: absolute;
+  margin-left: 120px;
+  height: 35px;
+  width: 35px;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #000;
+  cursor: pointer;
+}
+.enter-number__img {
+  padding-top: 4px;
+}
+
+.green-paragraph {
+  width: 224px;
+  height: 15px;
+  color: #039900;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  margin-left: 202px;
+}
+
+.red-paragraph {
+  width: 275px;
+  height: 15px;
+  color: #990000;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  margin-left: 202px;
+}
+
+.guess-the-number-div {
+  display: flex;
+  align-items: end;
+}
+
+.grey-paragraph {
+  width: 224px;
+  height: 15px;
+  color: #7E7E7E;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  margin-left: 202px;
 }
 
 body {
