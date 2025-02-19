@@ -1,2 +1,3 @@
-# GoIteens Command Project "Games" 
-### GoITeens_UA_FE_1y_27_26_09_23 (2) Group
+# Games
+
+### Project where you can play games like google dinosaur, guess the number, rock-paper-scissors and more!

@@ -1,3 +1,4 @@
+//! Rejected
 // const switchTheme = document.getElementById('switch');
 // const containerBackground = document.querySelector('.container-background');
 
