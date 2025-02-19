@@ -23,4 +23,10 @@
     border-radius: 37px;
     display: block;
     margin: 0 auto;
+    position: relative;
 }
+.ball {
+    transition: transform 0.5s ease;
+    position: absolute;
+}
+
