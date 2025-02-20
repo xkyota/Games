@@ -1,7 +1,7 @@
 import './js/calculator.js';
 import './js/choose-a-scientists.js';
 import './js/football.js';
-// import "./js/rock-paper-scissors.js";
+// import './js/rock-paper-scissors.js';
 import './js/footer.js';
 import './js/google-dinosaur.js';
 import './js/guess-the-number.js';

@@ -520,6 +520,7 @@ a {
 
 body {
   padding-top: 116px;
+  padding-bottom: 260px;
   position: relative;
   display: flex;
   justify-content: center;
