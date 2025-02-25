@@ -5,28 +5,25 @@ $ground-color: #333;
 $btn-bg: #333;
 $btn-text: white;
 
-.container {
-    font-family: $font-main;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
+// .container {
+//     font-family: $font-main;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 250px;
+// }
 
-.h3 {
-    margin-top: 150px;
-    margin-left: 540px;
-}
+// .h3 {
+//     margin-top: 150px;
+//     margin-left: 540px;
+// }
 
-.top-line {
-    margin-top: 100px;
-    margin-left: 350px;
-    position: absolute;
-    top: 0;
-    width: 536px;
-    height: 2px;
-    background-color: $line-color;
-}
+// .top-line {
+//     margin: 0 auto;
+//     width: 536px;
+//     height: 2px;
+//     background-color: $line-color;
+// }
 
 .game-container {
     position: relative;
