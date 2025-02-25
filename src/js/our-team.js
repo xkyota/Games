@@ -8,10 +8,10 @@ const carousel = document.getElementById('teamCarousel');
       const index = Array.from(activeItem.parentNode.children).indexOf(activeItem);
 
       prevBtn.classList.toggle('disabled', index === 0);
-      nextBtn.classList.toggle('disabled', index === 6);
+      nextBtn.classList.toggle('disabled', index === 13);
 
 
-      const activeIndicatorIndex = Math.floor(index / 1);
+      const activeIndicatorIndex = Math.floor(index / 2);
       indicators.forEach((indicator, i) => {
         indicator.classList.toggle('active', i === activeIndicatorIndex);
       });
