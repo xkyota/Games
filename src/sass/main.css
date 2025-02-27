@@ -30,6 +30,7 @@ header {
 }
 
 .header-nav-list {
+  margin: 0;
   display: flex;
   gap: 50px;
 }
@@ -45,12 +46,30 @@ header {
   line-height: normal;
 }
 
+.form-select {
+  flex-shrink: 0;
+  width: 160px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form-select option {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  background: #F1F1F1;
+}
+
 .header-inf {
   display: flex;
   gap: 51px;
   justify-content: center;
   align-items: center;
-  margin-left: 361px;
+  margin-left: 350px;
 }
 .header-inf .header-inf-items {
   color: #000;
@@ -62,8 +81,12 @@ header {
   line-height: normal;
 }
 
-/* From Uiverse.io by juanpabl0svn */
-/* The switch - the box around the slider */
+.header-nav-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: 1090px;
   margin: 0 auto;
