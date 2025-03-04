@@ -64,14 +64,8 @@ header {
   background: #F1F1F1;
 }
 
-.header-inf {
-  display: flex;
-  gap: 51px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 350px;
-}
-.header-inf .header-inf-items {
+.hello-user {
+  margin: auto 0 auto 350px;
   color: #000;
   text-align: right;
   font-family: "Montserrat Alternates", serif;
