@@ -409,6 +409,10 @@ body {
     border-radius: 20px;
   }
 }
+.h3 {
+  font-family: "Abril Fatface";
+}
+
 .game-container {
   left: 15%;
   position: relative;
@@ -440,7 +444,7 @@ body {
 .game-container .score {
   position: absolute;
   top: 10px;
-  left: 750px;
+  left: 10px;
   font-size: 20px;
   color: #333;
 }
