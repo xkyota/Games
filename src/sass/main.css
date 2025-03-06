@@ -410,6 +410,7 @@ body {
   }
 }
 .game-container {
+  left: 15%;
   position: relative;
   width: 720px;
   height: 241px;
@@ -417,6 +418,7 @@ body {
   display: none;
 }
 .game-container .dino {
+  font-family: "Abril Fatface";
   position: absolute;
   bottom: 0;
   width: 40px;
@@ -438,8 +440,8 @@ body {
 .game-container .score {
   position: absolute;
   top: 10px;
-  left: 10px;
-  font-size: 18px;
+  left: 750px;
+  font-size: 20px;
   color: #333;
 }
 

@@ -26,7 +26,7 @@ $btn-text: white;
 // }
 
 .game-container {
-    left: 12%;
+    left: 15%;
     position: relative;
     width: 720px;
     height: 241px;
@@ -59,8 +59,8 @@ $btn-text: white;
     .score {
         position: absolute;
         top: 10px;
-        left: 10px;
-        font-size: 18px;
+        left: 750px;
+        font-size: 20px;
         color: $ground-color;
     }
 }
