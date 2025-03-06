@@ -1,1 +1,144 @@
 // section Malyk // 
+.carousel-container {
+  max-width: 1090px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+
+  .divider {
+    width: 536px;
+    height: 2px;
+    border: 1px;
+    background: #333;
+    margin: 36px auto 35px;
+  }
+
+  .our-team {
+    width: 130px;
+    height: 20px;
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+    margin: 0 auto;
+  }
+
+  .carousel-item .carousel-item__title {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 17px;
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: 0%;
+  }
+
+  .team-member {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    border-radius: 15px;
+    margin: 36px auto;
+  }
+
+  .carousel-item .carousel-item__paragraph {
+    margin: 0 auto;
+    width: 315px;
+    height: 15px;
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    letter-spacing: 0%;
+  }
+
+  #teamCarousel .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    position: static;
+    bottom: auto;
+  }
+
+  #teamCarousel .carousel-indicators div {
+    width: 18px;
+    height: 3px;
+    background-color: rgba(217, 217, 217, 1);
+    margin: 0 5px;
+    transition: background-color 0.3s, width 0.3s;
+    border-radius: 3px;
+  }
+
+  #teamCarousel .carousel-indicators .active {
+    width: 30px;
+    background-color: rgba(121, 121, 121, 1);
+    border-radius: 3px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+
+
+  .carousel-control-prev {
+    left: 43px;
+  }
+
+
+  .carousel-control-next {
+    right: 43px;
+  }
+
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: brightness(0);
+    width: 50px;
+    height: 100px;
+    background-size: 50px 100px;
+  }
+
+  .carousel-control-prev.disabled,
+  .carousel-control-next.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+
+
+  .task-list {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .task-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .task-list ul li {
+    margin-bottom: 10px;
+  }
+
+  .task-list ul li::before {
+    content: "Item";
+    color: #333;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+  }
+
+
+}

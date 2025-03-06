@@ -12,6 +12,7 @@ body {
 }
 
 header {
+  padding: 20px;
   width: 100%;
   height: 80px;
   flex-shrink: 0;
@@ -29,6 +30,7 @@ header {
 }
 
 .header-nav-list {
+  margin: 0;
   display: flex;
   gap: 50px;
 }
@@ -44,14 +46,26 @@ header {
   line-height: normal;
 }
 
-.header-inf {
-  display: flex;
-  gap: 51px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 361px;
+.form-select {
+  flex-shrink: 0;
+  width: 160px;
+  outline: none;
+  border: none;
+  color: #000;
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.header-inf .header-inf-items {
+.form-select option {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  background: #F1F1F1;
+}
+
+.hello-user {
+  margin: auto 0 auto 442px;
   color: #000;
   text-align: right;
   font-family: "Montserrat Alternates", serif;
@@ -61,8 +75,12 @@ header {
   line-height: normal;
 }
 
-/* From Uiverse.io by juanpabl0svn */
-/* The switch - the box around the slider */
+.header-nav-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: 1090px;
   margin: 0 auto;
@@ -109,9 +127,6 @@ header {
   border-radius: 0px 20px 20px 0px;
   background-color: #000;
   cursor: pointer;
-}
-.enter-number__img {
-  padding-top: 4px;
 }
 
 .green-paragraph {
@@ -170,18 +185,6 @@ body {
 
 .heading {
   height: 20px;
-  font-family: "Montserrat Alternates", serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19.5px;
-  letter-spacing: 0%;
-}
-
-.nachalo {
-  margin: auto;
-  width: 195px;
-  height: 20px;
-  top: 543px;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 16px;
@@ -406,6 +409,50 @@ body {
     border-radius: 20px;
   }
 }
+.game-container {
+  position: relative;
+  width: 720px;
+  height: 241px;
+  overflow: hidden;
+  display: none;
+}
+.game-container .dino {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  left: 50px;
+}
+.game-container .obstacle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+}
+.game-container .ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+}
+.game-container .score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.start-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .football {
   margin-top: 36px;
   align-items: center;
@@ -435,6 +482,195 @@ body {
 .ball {
   transition: transform 0.5s ease;
   position: absolute;
+}
+
+.carousel-container {
+  max-width: 1090px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.carousel-container .divider {
+  width: 536px;
+  height: 2px;
+  border: 1px;
+  background: #333;
+  margin: 36px auto 35px;
+}
+.carousel-container .our-team {
+  width: 130px;
+  height: 20px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  margin: 0 auto;
+}
+.carousel-container .carousel-item .carousel-item__title {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 17px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  letter-spacing: 0%;
+}
+.carousel-container .team-member {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 15px;
+  margin: 36px auto;
+}
+.carousel-container .carousel-item .carousel-item__paragraph {
+  margin: 0 auto;
+  width: 315px;
+  height: 15px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  letter-spacing: 0%;
+}
+.carousel-container #teamCarousel .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  position: static;
+  bottom: auto;
+}
+.carousel-container #teamCarousel .carousel-indicators div {
+  width: 18px;
+  height: 3px;
+  background-color: rgb(217, 217, 217);
+  margin: 0 5px;
+  transition: background-color 0.3s, width 0.3s;
+  border-radius: 3px;
+}
+.carousel-container #teamCarousel .carousel-indicators .active {
+  width: 30px;
+  background-color: rgb(121, 121, 121);
+  border-radius: 3px;
+}
+.carousel-container .carousel-control-prev,
+.carousel-container .carousel-control-next {
+  width: 50px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.carousel-container .carousel-control-prev {
+  left: 43px;
+}
+.carousel-container .carousel-control-next {
+  right: 43px;
+}
+.carousel-container .carousel-control-prev-icon,
+.carousel-container .carousel-control-next-icon {
+  filter: brightness(0);
+  width: 50px;
+  height: 100px;
+  background-size: 50px 100px;
+}
+.carousel-container .carousel-control-prev.disabled,
+.carousel-container .carousel-control-next.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.carousel-container .task-list {
+  text-align: left;
+  margin-top: 20px;
+}
+.carousel-container .task-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.carousel-container .task-list ul li {
+  margin-bottom: 10px;
+}
+.carousel-container .task-list ul li::before {
+  content: "Item";
+  color: #333;
+  display: inline-block;
+  width: 20px;
+  margin-left: -20px;
+}
+
+.container-scientists {
+  width: 857px;
+  margin: 0 auto;
+}
+.container-scientists h2 {
+  color: #000;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.scientist-blocks {
+  padding: 0;
+  margin: 36px auto;
+  width: 577px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 59px;
+}
+.scientist-blocks li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #D9D9D9;
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+.scientist-blocks li span {
+  display: block;
+}
+
+.labels-blocks {
+  margin: 0 auto;
+  padding: 0;
+}
+.labels-blocks li {
+  margin-bottom: 20px;
+  margin-right: 36px;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: #000;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #FFF;
+  text-align: left;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .container-footer {
