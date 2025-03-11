@@ -29,8 +29,6 @@ Welcome to the **GoIteens** project! This web application combines fun and educa
 ![GitHub issues](https://img.shields.io/github/issues/xkyota/Games)
 ![GitHub license](https://img.shields.io/github/license/xkyota/Games)
 
-### 📈 Contribution Statistics
-![Repo Stats](https://github-readme-stats.vercel.app/api/pin/?username=xkyota&repo=Games&theme=radical)
 
 ## ⚡ Installation
 
