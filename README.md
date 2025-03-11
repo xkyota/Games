@@ -52,22 +52,24 @@ To get started with this project, follow these steps:
 
 ## 🏆 Team Members
 
-| Name | Role |
-|------|------|
-| **Dmytrii Beresten** | Teacher, Assistant |
-| **Maksym Durikhin** | Team Lead, Developer |
-| **Danylo Malyk** | Tech Lead, Developer |
-| **Anastasia Shvedova** | Scrum Master, Developer |
-| **Anastasia Pogorelova** | Developer |
-| **Yaroslav** | Developer |
-| **Mariam** | Developer |
-| **Ulia Hryshina** | Developer |
-| **Eduard Kazyuk** | Developer |
-| **Illia Pozdnyakov** | Developer |
-| **Danylo Stasiv** | Developer |
-| **Anton** | Developer |
-| **Roman Korniec** | Developer |
-| **Tymur** | Developer |
+
+| Name | Role | GitHub Profile |
+|------|------|---------------|
+| **Dmytrii Beresten** | Teacher, Assistant | [GitHub](https://github.com/dmitryberesten) |
+| **Maksym Durikhin** | Team Lead, Developer | [GitHub](https://github.com/xkyota?tab=repositories) |
+| **Danylo Malyk** | Tech Lead, Developer | [GitHub](https://github.com/danikkkkk12) |
+| **Anastasia Shvedova** | Scrum Master, Developer | [GitHub](https://github.com/svedova1899) |
+| **Anastasia Pogorelova** | Developer | [GitHub](https://github.com/PvNastia) |
+| **Yaroslav** | Developer | [GitHub](https://github.com/Yaroslav4ina) |
+| **Mariam** | Developer | N/A |
+| **Ulia Hryshina** | Developer | [GitHub](https://github.com/Ju-Hryshina) |
+| **Eduard Kazyuk** | Developer | [GitHub](https://github.com/GraceFeel1) |
+| **Illia Pozdnyakov** | Developer | [GitHub](https://github.com/IlliaPozdniakov) |
+| **Danylo Stasiv** | Developer | [GitHub](https://github.com/stasiv23) |
+| **Anton** | Developer | [GitHub](https://github.com/Anton586-cybert) |
+| **Roman Korniec** | Developer | [GitHub](https://github.com/supriseeeeef) |
+| **Tymur** | Developer | [GitHub](https://github.com/StarostaX60fps) |
+
 
 We hope you enjoy exploring the various features of this project and that it serves as both an entertaining and educational experience! 🚀
 
