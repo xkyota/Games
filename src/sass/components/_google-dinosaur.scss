@@ -13,19 +13,18 @@ $btn-text: white;
 //     height: 250px;
 // }
 
-// .h3 {
-//     margin-top: 150px;
-//     margin-left: 540px;
-// }
+.h3 {
+    font-family: 'Abril Fatface';
+}
 
-// .top-line {
-//     margin: 0 auto;
-//     width: 536px;
-//     height: 2px;
-//     background-color: $line-color;
-// }
+.top-line {
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+}
 
 .game-container {
+    left: 15%;
     position: relative;
     width: 720px;
     height: 241px;
@@ -33,6 +32,7 @@ $btn-text: white;
     display: none;
 
     .dino {
+        font-family: 'Abril Fatface';
         position: absolute;
         bottom: 0;
         width: 40px;
@@ -58,7 +58,7 @@ $btn-text: white;
         position: absolute;
         top: 10px;
         left: 10px;
-        font-size: 18px;
+        font-size: 20px;
         color: $ground-color;
     }
 }

@@ -57,21 +57,16 @@ header {
 
 }
 
-.header-inf {
-  display: flex;
-  gap: 51px;
-  justify-content: center;
-  align-items: center;
-  margin-left: 350px;
-  .header-inf-items {
-    color: #000;
-    text-align: right;
-    font-family: $Montserrat-fonts;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+
+.hello-user{ 
+  margin: auto 0 auto 442px;
+  color: #000;
+  text-align: right;
+  font-family: $Montserrat-fonts;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header-nav-list-item{ 
