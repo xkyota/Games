@@ -1,33 +1,53 @@
-let userScore = 0;
-let computerScore = 0;
+const choices = ["rock", "paper", "scissors"];
+let computerWins = 0;
+let userWins = 0;
+const computerVar = document.getElementById("computer-variant");
+
+document.getElementById("rock-button").addEventListener("click", function () {
+    playGame("rock");
+});
+
+document.getElementById("scissors-button").addEventListener("click", function () {
+    playGame("scissors");
+});
+
+document.getElementById("paper-button").addEventListener("click", function () {
+    playGame("paper");
+});
+
+document.getElementById("computer-variant").addEventListener("click", function () {
+    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    playGameWithComputer(computerChoice);
+    computerVar.textContent = `Варіант комп’ютера: ${computerChoice}`; 
+});
 
 function playGame(userChoice) {
-    const choices = ['камінь', 'ножиці', 'папір'];
-    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    document.getElementById("winOrLose").innerHTML = "";
+}
 
-    document.getElementById('computer-choice').textContent = "Варіант комп’ютера: " + computerChoice;
+function playGameWithComputer(computerChoice) {
+    const userChoice = choices[Math.floor(Math.random() * choices.length)];
 
-    let resultElement = document.getElementById('result');
-    let result = '';
+    let result = "";
 
-    if (userChoice === computerChoice) {
-        result = 'Нічия!';
-        resultElement.className = "gray-text";
-    } else if (
-        (userChoice === 'камінь' && computerChoice === 'ножиці') ||
-        (userChoice === 'ножиці' && computerChoice === 'папір') ||
-        (userChoice === 'папір' && computerChoice === 'камінь')
+    if (
+        (userChoice === "rock" && computerChoice === "scissors") ||
+        (userChoice === "scissors" && computerChoice === "paper") ||
+        (userChoice === "paper" && computerChoice === "rock")
     ) {
-        result = 'Ви виграли раунд!';
-        resultElement.className = "green-text";
-        userScore++;
+        userWins++;
+        result = "Ви виграли!";
+        document.getElementById("winOrLose").style.color = ("#08a207")
+    } else if (userChoice === computerChoice) {
+        result = "Нічия!";
+        document.getElementById("winOrLose").style.color = ("#000")
     } else {
-        result = 'Комп’ютер виграв раунд!';
-        resultElement.className = "red-text";
-        computerScore++;
+        computerWins++;
+        result = "Комп'ютер виграв!";
+        document.getElementById("winOrLose").style.color = ("#ff0000")
     }
 
-    resultElement.textContent = result;
-    document.getElementById('user-score').textContent = userScore;
-    document.getElementById('computer-score').textContent = computerScore;
+    document.getElementById("winOrLose").innerHTML = result;
+    document.getElementById("comp-score-text").innerHTML = computerWins;
+    document.getElementById("user-score-text").innerHTML = userWins;
 }
