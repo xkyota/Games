@@ -9,10 +9,10 @@
 
   .divider {
     width: 536px;
-    height: 2px;
+    height: 1px;
     border: 1px;
-    background: #333;
-    margin: 36px auto 35px;
+    background-color: $black-color;
+    margin: 36px auto;
   }
 
   .our-team {
@@ -41,7 +41,7 @@
   .team-member {
     width: 150px;
     height: 150px;
-    background-color: #ddd;
+    background-color: $our-team-member-color-background-color;
     border-radius: 15px;
     margin: 36px auto;
   }
@@ -134,7 +134,7 @@
 
   .task-list ul li::before {
     content: "Item";
-    color: #333;
+    color: $black-color;
     display: inline-block;
     width: 20px;
     margin-left: -20px;

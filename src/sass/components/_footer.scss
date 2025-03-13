@@ -1,23 +1,21 @@
 // section Pogorelova // 
 .container-footer {
-    // For background
-    // width: 100%;
     width: 1440px;
     margin: 0 auto;
     height: 202px;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 
-color: $black-color;
+    color: $black-color;
 }
-.footer {
 
-    // For background
-    // padding-bottom: 61px; 
+.footer {
     display: flex;
     gap: 185px;
     align-content: center;

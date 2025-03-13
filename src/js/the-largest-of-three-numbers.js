@@ -1,9 +1,20 @@
-document.getElementById("findMaxBtn").addEventListener("click", function() {
-    let num1 = parseFloat(document.getElementById("num1").value);
-    let num2 = parseFloat(document.getElementById("num2").value);
-    let num3 = parseFloat(document.getElementById("num3").value);
+const inputOne = document.getElementById('one-input');
+    const inputTwo = document.getElementById('two-input');
+    const inputThree = document.getElementById('three-input');
+    const highestNumberElement = document.getElementById('time-result');
 
-    if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
-        document.getElementById("result").innerText = "Будь ласка, введіть всі числа!";
+    function findHighestNumber() {
+        const num1 = parseFloat(inputOne.value);
+        const num2 = parseFloat(inputTwo.value);
+        const num3 = parseFloat(inputThree.value);
+        if (!Number.isNaN(num1) && !Number.isNaN(num2) && !Number.isNaN(num3)) {
+            const maxNumber = Math.max(num1, num2, num3);
+            highestNumberElement.textContent = `Найбільше число яке ви ввели - ${maxNumber} `; 
+            console.log(Number.isNaN(num1))
+        }else {
+            highestNumberElement.textContent = "Найбільше число яке ви ввели - не вказано";
+        }
     }
-}); 
+    inputOne.addEventListener('input', findHighestNumber);
+    inputTwo.addEventListener('input', findHighestNumber);
+    inputThree.addEventListener('input', findHighestNumber);

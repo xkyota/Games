@@ -1,26 +1,14 @@
 // section Tymur // 
-$font-main: 'Arial', sans-serif;
-$line-color: #000;
-$ground-color: #333;
-$btn-bg: #333;
-$btn-text: white;
-
-// .container {
-//     font-family: $font-main;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 250px;
-// }
-
 .h3 {
-    font-family: 'Abril Fatface';
+    font-family: $Montserrat-fonts;
 }
 
 .top-line {
-    width: 50%;
+    width: 536px;
     height: 1px;
-    background-color: #000;
+    border: 1px;
+    background-color: $black-color;
+    margin: 36px auto;
 }
 
 .game-container {
@@ -32,7 +20,7 @@ $btn-text: white;
     display: none;
 
     .dino {
-        font-family: 'Abril Fatface';
+        font-family: $Montserrat-fonts;
         position: absolute;
         bottom: 0;
         width: 40px;
@@ -51,7 +39,7 @@ $btn-text: white;
         bottom: 0;
         width: 100%;
         height: 1px;
-        background-color: $ground-color;
+        background-color: $black-color;
     }
 
     .score {
@@ -59,15 +47,15 @@ $btn-text: white;
         top: 10px;
         left: 10px;
         font-size: 20px;
-        color: $ground-color;
+        color: $black-color;
     }
 }
 
 .start-btn {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: $btn-bg;
-    color: $btn-text;
+    background-color: $black-color;
+    color: $white-color;
     border: none;
     cursor: pointer;
     border-radius: 5px;

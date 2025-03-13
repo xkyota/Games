@@ -1,1 +1,110 @@
 // section Illia // 
+.backdrop-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $backdrop-page-color;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.backdrop-page__modal-background {
+  position: absolute;
+  width: 576px;
+  height: 316px;
+  background-color: $white-color;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.backdrop-page__close {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: $white-color;
+  border-radius: 50%;
+  margin-left: 521px;
+  margin-top: 30px;
+}
+
+.backdrop-page__close{
+  width: 15px;
+  height: 15px;
+  fill: $black-color;
+  margin-top: 30px;
+}
+
+.backdrop-page__close .backdrop-page__close-svg {
+  position: relative;
+  transition: transform 1s;
+}
+
+.backdrop-page__paragraph {
+  font-size: 12px;
+  font-family: $Inter-fonts;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.backdrop-page__write-your-name {
+  font-size: 12px;
+  font-family: $Inter-fonts;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.backdrop-page__input {
+  width: 169px;
+  height: 35px;
+  padding-left: 10px;
+  color: $input-text-color;
+  background-color: $input-background-color;
+  border-radius: 20px;
+  border: none;
+  margin-top: 18px;
+  font-size: 12px;
+  font-family: $Montserrat-fonts;
+}
+
+.backdrop-page__save {
+  width: 105px;
+  height: 35px;
+  border: none;
+  background-color: $black-color;
+  color: $white-color;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: $Montserrat-fonts;
+  margin-top: 18px;
+  margin-bottom: 47px;
+}
+
+.backdrop-page__img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.backdrop-page__first-img {
+  margin-top: -80px;
+  margin-left: -300px;
+}
+
+.backdrop-page__second-img {
+  margin-left: 170px;
+  margin-top: -80px;
+}
+
+.backdrop-page__third-img {
+  margin-top: 12.5px;
+  margin-left: -250px;
+}
+
+.backdrop-page__forth-img {
+  margin-top: 10px;
+  margin-left: 100px;
+}

@@ -6,7 +6,7 @@ header {
   height: 80px;
   flex-shrink: 0;
 
-  background: #fff;
+  background: $white-color;
 }
 
 .container-header {
@@ -23,11 +23,13 @@ header {
   margin: 0;
   display: flex;
   gap: 50px;
+
   img {
     margin-right: 81px;
   }
+
   li {
-    color: #000;
+    color: $black-color;
     font-family: $Montserrat-fonts;
     font-size: 12px;
     font-style: normal;
@@ -36,31 +38,31 @@ header {
   }
 }
 
-.form-select{ 
-    flex-shrink: 0;
-    width: 160px;
-    outline: none;
-    border: none;
+.form-select {
+  flex-shrink: 0;
+  width: 160px;
+  outline: none;
+  border: none;
 
-    color: #000;
-    font-family: "Montserrat Alternates";
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-      option{ 
-        border-right: 1px solid #000;
-        border-left: 1px solid #000;
-        background: #F1F1F1;
-      }
+  color: $black-color;
+  font-family: $Montserrat-fonts;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  option {
+    border-right: 1px solid $black-color;
+    border-left: 1px solid $black-color;
+    background: #F1F1F1;
+  }
 
 }
 
 
-.hello-user{ 
+.hello-user {
   margin: auto 0 auto 442px;
-  color: #000;
+  color: $black-color;
   text-align: right;
   font-family: $Montserrat-fonts;
   font-size: 12px;
@@ -69,8 +71,8 @@ header {
   line-height: normal;
 }
 
-.header-nav-list-item{ 
-  display: flex; 
+.header-nav-list-item {
+  display: flex;
   justify-content: center;
   align-items: center;
 }

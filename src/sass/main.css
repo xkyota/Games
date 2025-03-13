@@ -16,7 +16,7 @@ header {
   width: 100%;
   height: 80px;
   flex-shrink: 0;
-  background: #fff;
+  background: #FFF;
 }
 
 .container-header {
@@ -52,7 +52,7 @@ header {
   outline: none;
   border: none;
   color: #000;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -167,6 +167,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.line {
+  width: 536px;
+  height: 1px;
+  border: 1px;
+  background-color: #000;
+  margin: 36px auto;
+}
+
 .choices {
   display: flex;
   justify-content: center;
@@ -176,7 +184,7 @@ body {
 
 .choice {
   border: 0;
-  background-color: white;
+  background-color: #FFF;
 }
 
 .choice:hover {
@@ -211,7 +219,7 @@ body {
 }
 
 .images-stone {
-  background-color: black;
+  background-color: #000;
   width: 60px;
   height: 60px;
   border-radius: 20px;
@@ -220,7 +228,7 @@ body {
 }
 
 .images-sciossors {
-  background-color: black;
+  background-color: #000;
   width: 60px;
   height: 60px;
   border-radius: 20px;
@@ -232,7 +240,7 @@ body {
   width: 60px;
   height: 60px;
   padding: 10px;
-  background-color: black;
+  background-color: #000;
 }
 
 .variant {
@@ -242,8 +250,8 @@ body {
   margin: auto;
   border-radius: 20px;
   padding-top: 9px;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #FFF;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 12px;
@@ -259,7 +267,7 @@ body {
   font-family: "Montserrat Alternates", serif;
   font-size: 12px !important;
   font-weight: 400 !important;
-  color: green;
+  color: #039900;
 }
 
 .red-text {
@@ -270,7 +278,7 @@ body {
   font-family: "Montserrat Alternates", serif;
   font-size: 12px !important;
   font-weight: 300 !important;
-  color: red;
+  color: #990000;
 }
 
 .gray-text {
@@ -281,7 +289,103 @@ body {
   font-size: 12px !important;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400 !important;
-  color: gray;
+  color: #7E7E7E;
+}
+
+.vector__calculator {
+  width: 536px;
+  height: 1px;
+  border: 1px;
+  background-color: #000;
+  margin: 36px auto;
+}
+
+.calculator__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  margin-top: 36px;
+  margin-bottom: 49px;
+}
+
+.calculator__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.input__calculator {
+  outline: 0;
+  border: 0;
+  width: 150px;
+  height: 35px;
+  padding: 10px, 20px, 10px, 20px;
+  background-color: #D7D7D7;
+  padding-left: 14.63px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+}
+
+.button__calculator {
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 5px, 10px, 5px, 10px;
+  background-color: #000;
+  color: #D7D7D7;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+}
+
+.ebutton__calculator {
+  margin-left: 38px;
+  margin-right: 38px;
+  align-items: center;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 5px, 10px, 5px, 10px;
+  background-color: #000;
+  color: #D7D7D7;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+}
+
+.button__list {
+  display: flex;
+  list-style: none;
+  max-width: 100px;
+  height: 60px;
+  flex-wrap: wrap;
+  margin-right: 38px;
+  gap: 10px;
+}
+
+.calc__result {
+  outline: 0;
+  border: 0;
+  width: 150px;
+  height: 35px;
+  padding: 10px, 20px, 10px, 20px;
+  background-color: #D7D7D7;
+  padding-left: 14.63px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: all 500ms;
+  margin-top: revert-layer;
 }
 
 .time-calculator {
@@ -301,7 +405,7 @@ body {
   padding-bottom: 36px;
   margin-top: 0;
   text-align: center;
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
@@ -313,11 +417,11 @@ body {
   flex-wrap: wrap;
 }
 .time-calculator__input {
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 12px;
-  color: #7e7e7e;
-  background-color: #d7d7d7;
+  color: #7E7E7E;
+  background-color: #D7D7D7;
   border: none;
   border-radius: 20px;
   width: 100%;
@@ -345,13 +449,13 @@ body {
   justify-content: center;
   border: none;
   background: #000;
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
   transition: background 0.3s ease;
   outline: none;
 }
 .time-calculator__button:hover {
-  background: #333;
+  background: #000;
 }
 .time-calculator__button img {
   max-width: 60%;
@@ -370,7 +474,7 @@ body {
   border-bottom: 1px dashed black;
 }
 .time-calculator__output {
-  font-family: "Montserrat Alternates";
+  font-family: "Montserrat Alternates", serif;
   font-weight: 400;
   font-size: 12px;
   margin-left: 10px;
@@ -410,7 +514,15 @@ body {
   }
 }
 .h3 {
-  font-family: "Abril Fatface";
+  font-family: "Montserrat Alternates", serif;
+}
+
+.top-line {
+  width: 536px;
+  height: 1px;
+  border: 1px;
+  background-color: #000;
+  margin: 36px auto;
 }
 
 .game-container {
@@ -422,7 +534,7 @@ body {
   display: none;
 }
 .game-container .dino {
-  font-family: "Abril Fatface";
+  font-family: "Montserrat Alternates", serif;
   position: absolute;
   bottom: 0;
   width: 40px;
@@ -439,21 +551,21 @@ body {
   bottom: 0;
   width: 100%;
   height: 1px;
-  background-color: #333;
+  background-color: #000;
 }
 .game-container .score {
   position: absolute;
   top: 10px;
   left: 10px;
   font-size: 20px;
-  color: #333;
+  color: #000;
 }
 
 .start-btn {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #333;
-  color: white;
+  background-color: #000;
+  color: #FFF;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -490,44 +602,160 @@ body {
   position: absolute;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 50px;
+.backdrop-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
 }
 
-.input-container {
+.backdrop-page__modal-background {
+  position: absolute;
+  width: 576px;
+  height: 316px;
+  background-color: #FFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.backdrop-page__close {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #FFF;
+  border-radius: 50%;
+  margin-left: 521px;
+  margin-top: 30px;
+}
+
+.backdrop-page__close {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+  margin-top: 30px;
+}
+
+.backdrop-page__close .backdrop-page__close-svg {
+  position: relative;
+  transition: transform 1s;
+}
+
+.backdrop-page__paragraph {
+  font-size: 12px;
+  font-family: "Inter", serif;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.backdrop-page__write-your-name {
+  font-size: 12px;
+  font-family: "Inter", serif;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.backdrop-page__input {
+  width: 169px;
+  height: 35px;
+  padding-left: 10px;
+  color: #7E7E7E;
+  background-color: #D7D7D7;
+  border-radius: 20px;
+  border: none;
+  margin-top: 18px;
+  font-size: 12px;
+  font-family: "Montserrat Alternates", serif;
+}
+
+.backdrop-page__save {
+  width: 105px;
+  height: 35px;
+  border: none;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: "Montserrat Alternates", serif;
+  margin-top: 18px;
+  margin-bottom: 47px;
+}
+
+.backdrop-page__img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.backdrop-page__first-img {
+  margin-top: -80px;
+  margin-left: -300px;
+}
+
+.backdrop-page__second-img {
+  margin-left: 170px;
+  margin-top: -80px;
+}
+
+.backdrop-page__third-img {
+  margin-top: 12.5px;
+  margin-left: -250px;
+}
+
+.backdrop-page__forth-img {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.line__hn {
+  width: 536px;
+  height: 1px;
+  border: 1px;
+  background-color: #000;
+  margin: 36px auto;
+}
+
+.highest-number__title {
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.input-num__list {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+  padding: 0;
+  gap: 38px;
 }
 
-input {
-  padding: 10px;
+.input-num__calculator {
+  outline: 0;
+  border: 0;
+  width: 150px;
+  height: 35px;
+  padding: 10px, 20px, 10px, 20px;
+  background-color: #D7D7D7;
+  padding-left: 14.63px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px;
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  margin-top: 36px;
+}
+
+.highest-number__text {
+  font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
   font-size: 16px;
-  width: 80px;
   text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  padding: 10px 15px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #8ACECF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #8ACECF;
-}
-
-h3 {
-  margin-top: 20px;
+  margin-top: 36px;
 }
 
 .carousel-container {
@@ -540,10 +768,10 @@ h3 {
 }
 .carousel-container .divider {
   width: 536px;
-  height: 2px;
+  height: 1px;
   border: 1px;
-  background: #333;
-  margin: 36px auto 35px;
+  background-color: #000;
+  margin: 36px auto;
 }
 .carousel-container .our-team {
   width: 130px;
@@ -644,7 +872,7 @@ h3 {
 }
 .carousel-container .task-list ul li::before {
   content: "Item";
-  color: #333;
+  color: #000;
   display: inline-block;
   width: 20px;
   margin-left: -20px;
@@ -807,6 +1035,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
   background: url(../img/background.svg);
   background-position: center;
   background-repeat: no-repeat;

@@ -5,6 +5,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.line {
+    width: 536px;
+    height: 1px;
+    border: 1px;
+    background-color: $black-color;
+    margin: 36px auto;
+}
+
 .choices {
     display: flex;
     justify-content: center;
@@ -14,7 +22,7 @@ body {
 
 .choice {
     border: 0;
-    background-color: white;
+    background-color: $white-color;
 
 }
 
@@ -51,7 +59,7 @@ body {
 }
 
 .images-stone {
-    background-color: black;
+    background-color: $black-color;
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -61,7 +69,7 @@ body {
 }
 
 .images-sciossors {
-    background-color: black;
+    background-color: $black-color;
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -74,7 +82,7 @@ body {
     width: 60px;
     height: 60px;
     padding: 10px;
-    background-color: black;
+    background-color: $black-color;
 }
 
 .variant {
@@ -84,8 +92,8 @@ body {
     margin: auto;
     border-radius: 20px;
     padding-top: 9px;
-    background-color: black;
-    color: white;
+    background-color: $black-color;
+    color: $white-color;
     font-family: $Montserrat-fonts;
     font-weight: 400;
     font-size: 12px;
@@ -104,7 +112,7 @@ body {
     font-family: $Montserrat-fonts;
     font-size: 12px !important;
     font-weight: 400 !important;
-    color: green;
+    color: $green-color;
 }
 
 .red-text {
@@ -115,7 +123,7 @@ body {
     font-family: $Montserrat-fonts;
     font-size: 12px !important;
     font-weight: 300 !important;
-    color: red;
+    color: $red-color;
 }
 
 .gray-text {
@@ -126,5 +134,5 @@ body {
     font-size: 12px !important;
     font-family: $Montserrat-fonts;
     font-weight: 400 !important;
-    color: gray;
+    color: $input-text-color;
 }

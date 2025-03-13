@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
 
   background: url(../img/background.svg);
   background-position: center;

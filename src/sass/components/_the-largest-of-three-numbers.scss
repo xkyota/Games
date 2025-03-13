@@ -1,40 +1,45 @@
-// section Stasiv // 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 50px;
+.line__hn {
+    width: 536px;
+    height: 1px;
+    border: 1px;
+    background-color: $black-color;
+    margin: 36px auto;
 }
 
-.input-container {
+.highest-number__title {
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.input-num__list {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
+    padding: 0;
+    gap: 38px;
 }
 
-input {
-    padding: 10px;
+.input-num__calculator {
+    outline: 0;
+    border: 0;
+    width: 150px;
+    height: 35px;
+    padding: 10px, 20px, 10px, 20px;
+    background-color: $input-background-color;
+    padding-left: 14.63px;
+    box-shadow: 3px 3px 0px 0px $box-shadow-input;
+    border-radius: 20px;
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
+    margin-top: 36px;
+}
+
+.highest-number__text {
+    font-family: $Montserrat-fonts;
+    font-weight: 400;
     font-size: 16px;
-    width: 80px;
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #8ACECF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #8ACECF;
-}
-
-h3 {
-    margin-top: 20px;
+    margin-top: 36px;
 }
