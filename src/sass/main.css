@@ -855,6 +855,11 @@ body {
   padding-top: 20px;
 }
 
+.modal-subscribe__img {
+  margin-top: -50px;
+  margin-left: -10px;
+}
+
 .line__hn {
   width: 536px;
   height: 1px;
