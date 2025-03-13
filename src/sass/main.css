@@ -81,6 +81,85 @@ header {
   align-items: center;
 }
 
+.games__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.vector__leap {
+  width: 536px;
+  height: 1px;
+  background-color: #000;
+  align-items: center;
+  margin: auto;
+}
+
+.title__leap {
+  text-align: center;
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 36px;
+}
+
+.leap__list {
+  display: flex;
+  justify-content: center;
+  margin-right: 150px;
+  margin-top: 36px;
+  margin-left: 257px;
+}
+
+.input__leap {
+  outline: 0;
+  border: 0;
+  width: 215px;
+  height: 35px;
+  padding: 10px, 20px, 10px, 20px;
+  background-color: #D7D7D7;
+  padding-left: 14px;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px 0px 0px 20px;
+  font-family: "Montserrat Alternates", solid;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 500ms ease;
+}
+
+.input-but__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 0px 20px 20px 0px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #000000;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2509803922);
+  border: none;
+}
+
+.yesNo__leap {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 129px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+.leap-year__svg {
+  width: 15px;
+  height: 15px;
+}
+
 .container {
   width: 1090px;
   margin: 0 auto;
@@ -305,8 +384,9 @@ body {
   justify-content: center;
   font-family: "Montserrat Alternates", serif;
   font-weight: 400;
-  margin-top: 36px;
+  margin-top: 24px;
   margin-bottom: 49px;
+  font-size: 16px;
 }
 
 .calculator__container {
@@ -513,8 +593,14 @@ body {
     border-radius: 20px;
   }
 }
-.h3 {
+.section-dinosaur-title {
+  height: 20px;
   font-family: "Montserrat Alternates", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  padding-bottom: 35px;
 }
 
 .top-line {
@@ -1101,7 +1187,6 @@ body {
 
 .container-background {
   width: 1090px;
-  height: 3202px;
   flex-shrink: 0;
   background: #fff;
 }
