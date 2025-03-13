@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="website icon" href="/Games/assets/icon-Cb7deNuR.svg">
-    <script type="module" crossorigin src="/Games/assets/index-CP8PeWmu.js"></script>
+    <script type="module" crossorigin src="/Games/assets/index-BoJQo4FJ.js"></script>
     <link rel="stylesheet" crossorigin href="/Games/assets/index-91EXauFn.css">
   </head>
   <body>
@@ -59,22 +59,22 @@
 <h1 class="heading">Камінь - Ножиці - Папір</h1>
 <div class="line"></div>
 <div class="choices">
-        <button class="choice" onclick="playGame('камінь')"><img class="images-stone"
+        <button class="choice" id="rock-button"><img class="images-stone"
                         src="/Games/assets/stone-DJzxAZMD.svg" alt="rock"></button>
-        <button class="choice" onclick="playGame('ножиці')"><img class="images-sciossors"
+        <button class="choice" id="scissors-button"><img class="images-sciossors"
                         src="/Games/assets/scissors-Dolmgs1A.svg" alt=""></button>
-        <button class="choice" onclick="playGame('папір')"><img class="images-paper"
+        <button class="choice" id="paper-button" onclick="playGame('папір')"><img class="images-paper"
                         src="/Games/assets/paper-BgKl3KHz.svg" alt="paper"></button>
         <div class="">
                 <p class="text">Рахунок:
-                        Комп'ютер - <span id="computer-score">0</span>
-                        Ви - <span id="user-score">0</span></p>
+                        Комп'ютер - <span id="comp-score-text">0</span>
+                        Ви - <span id="user-score-text">0</span></p>
 
         </div>
 </div>
 
-<p class="resultat" id="result"></p>
-<p class="variant" id="computer-choice">Варіант комп’ютера</p>
+<p class="resultat" id="winOrLose"></p>
+<p class="variant" id="computer-variant">Варіант комп’ютера</p>
         <!-- section Yaroslav -->
 <div class="calculator-night">
   <div class="vector__calculator"></div>
