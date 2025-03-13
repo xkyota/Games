@@ -19,10 +19,10 @@ refs.openModalBtn.addEventListener('click', toggleModal);
 refs.closeModalBtn.addEventListener('click', toggleModal);
 refs.backdrop.addEventListener('click', logBackdropClick);
 
-refs.backdropButton.addEventListener("click", (event) => {
-  if (refs.footerInput.value === "") {
-    alert("Введіть пошту");
-  }
-});
-
-
+if (refs.backdropButton) {
+  refs.backdropButton.addEventListener("click", (event) => {
+    if (refs.footerInput.value === "") {
+      alert("Введіть пошту");
+    }
+  });
+}
