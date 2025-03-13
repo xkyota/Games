@@ -21,3 +21,4 @@ submitButton.addEventListener('click', function (event) {
     event.preventDefault(); 
     modal.style.display = 'none';
 });
+modal.style.display = 'flex';
